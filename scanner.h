@@ -12,6 +12,8 @@ public:
     explicit Scanner(QWidget *parent = nullptr);
 private slots:
     void on_startButton_clicked();
+    void on_clearButton_clicked();
+
 private:
     ScannerNet* m_scan;
 };
